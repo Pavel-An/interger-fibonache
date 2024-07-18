@@ -1,5 +1,5 @@
 Gem::Specification.new do |spec|
-  spec.name          = "interger-fibonacce"
+  spec.name          = "integer-fibonacci"
   spec.version       = "0.0.1"
   spec.authors       = ["ruby course"]
   spec.email         = ["pael88@mail.ru"]
@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/Pavel-An/interger-fibonache"
   spec.license       = "MIT"
 
-  spec.files         = Dir["lib/**/*.rb", "LICENSE", "README.md"]
+  spec.files         = Dir["lib/integer.rb", "LICENSE", "README.md"]
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 2.0"
